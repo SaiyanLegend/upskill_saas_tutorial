@@ -1,6 +1,6 @@
 class Contact < ActiveRecord::Base
-    validates :name, presense: true
-    validates :email, presense: true
-    validates :comments, presense: true
+    validates :name, presence: true
+    validates :email, presence: true
+    validates :comments, presence: true
     
 end
