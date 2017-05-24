@@ -1,4 +1,4 @@
-class ContactMailer < ActionMailer :: Base
+class ContactMailer < ActionMailer::Base
     default to: 'jerik.mitchell@gmail.com'
     
     def method_name
@@ -10,3 +10,4 @@ class ContactMailer < ActionMailer :: Base
         mail(from: email, subject: 'Contact Form Message')
     end
 end
+
